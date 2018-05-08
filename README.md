@@ -1,9 +1,9 @@
 # django-sspanel
 用diango开发的全新的shadowsocks网络面板
 
-Telegram group : [invite link](https://t.me/Ehcobreakwa11)
+专用后端：[地址：](https://github.com/Ehco1996/shadowsocksr)
 
-Demo: [迷之屋](https://www.ehcozone.ml/)
+Telegram group : [invite link](https://t.me/Ehcobreakwa11)
 
 Wiki: [Wiki](https://github.com/Ehco1996/django-sspanel/wiki)
 
@@ -37,6 +37,11 @@ Django_sspenl 是用django作为后端框架，开发的一个Shadowsocks网络�
 
 ![](http://opj9lh0x4.bkt.clouddn.com/18-1-20/44962964.jpg)
 
+
+* 支持多种主题切换:
+
+![](http://opj9lh0x4.bkt.clouddn.com/18-4-7/37704064.jpg)
+
 * 节点信息：
 
 ![](http://opj9lh0x4.bkt.clouddn.com/18-1-20/12404617.jpg)
@@ -46,10 +51,9 @@ Django_sspenl 是用django作为后端框架，开发的一个Shadowsocks网络�
 ![](http://opj9lh0x4.bkt.clouddn.com/18-1-20/23097796.jpg)
 
 
-* 充值捐增（支付宝/91pay):
+* 充值捐增:
 
 ![](http://opj9lh0x4.bkt.clouddn.com/18-1-20/84610707.jpg)
-
 
 
 
@@ -67,14 +71,14 @@ Django_sspenl 是用django作为后端框架，开发的一个Shadowsocks网络�
 
 ![](http://opj9lh0x4.bkt.clouddn.com/17-9-17/12003054.jpg)
 
-* 对数据库直接管理的Django后台：  
 
-![](http://opj9lh0x4.bkt.clouddn.com/17-9-17/10484526.jpg)
+* Django-jet 后台:
 
+![](http://opj9lh0x4.bkt.clouddn.com/18-4-7/67402906.jpg)
 
 ## 项目组件
 
-#### 前端框架：
+#### 前端相关：
 
 * BULMA(布玛) <http://bulma.io/>
 
@@ -84,14 +88,11 @@ Django_sspenl 是用django作为后端框架，开发的一个Shadowsocks网络�
 
 * Django  <https://www.djangoproject.com/>
 
-#### 第三方组件：
-
-* Qrcode <https://github.com/lincolnloop/python-qrcode>
-* Markdown <https://pypi.python.org/pypi/Markdown>
-* alipay(支付宝插件) <https://github.com/fzlee/alipay>
 
 ## 部署教程：
 
 硬核版: [部署教程](https://github.com/Ehco1996/django-sspanel/wiki/%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2)
 
 萌新版: [部署教程](https://github.com/Ehco1996/django-sspanel/wiki/%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B-%E8%90%8C%E6%96%B0%E7%89%88)
+
+Docker版: [部署教程](https://github.com/Ehco1996/django-sspanel/wiki/%E5%88%A9%E7%94%A8Dokcer-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85)

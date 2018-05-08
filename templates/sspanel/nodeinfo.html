@@ -140,15 +140,15 @@
                                 <button class="delete" aria-label="close"></button>
                             </header>
                             <section class="modal-card-body">
-                                <p class="subtitle">用原版SS要在节点编辑界面将
-                                    <strong>混淆</strong>改成
-                                    <code>http_simple_compatible</code>
-                                </p>
                                 <div class="box">
                                     <!-- SSR配置 ... -->
                                     <p class="subtitle">SSR版本(推荐使用)：</p>
                                     <img src="" id="id-ssr-{{ list.node_id }}" width="256" height="256">
                                 </div>
+                                <p class="subtitle">用原版SS要在节点编辑界面将
+                                    <strong>混淆</strong>改成
+                                    <code>http_simple_compatible</code>
+                                </p>
                                 <div class="box">
                                     <!-- SS配置 ... -->
                                     <p class="subtitle">SS原版：</p>
@@ -165,7 +165,7 @@
                             <div class="message-body">
                                 <p>该线路为VIP线路
                                     <strong>购买对应商品后</strong> 才能看见节点配置哟！</p>
-                                <a class="is-link" href="{% url 'shadowsocks:shop' %}">点我购买！</a>
+                                <a class="is-link" href="{% url 'sspanel:shop' %}">点我购买！</a>
                             </div>
                         </article>
                     </div>
@@ -198,7 +198,7 @@
         var host = window.location.host
         var protocol = window.location.protocol
         // 追加节点二维码
-        ssr.attr("src", `${protocol}//${host}/qrcode/ssr/${nodeId}`)
-        ss.attr("src", `${protocol}//${host}/qrcode/ss/${nodeId}`)
+        ssr.attr("src", `${protocol}//${host}/sspanel/qrcode/ssr/${nodeId}`)
+        ss.attr("src", `${protocol}//${host}/sspanel/qrcode/ss/${nodeId}`)
     })
 </script> {% endblock main %}

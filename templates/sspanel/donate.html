@@ -105,13 +105,13 @@
                 csrfmiddlewaretoken: '{{ csrf_token }}',
             }
             $.post(url, data, function (results) {
-                qrcode_url = "{% url 'shadowsocks:facepay_qrcode' %}"
+                qrcode_url = "{% url 'sspanel:facepay_qrcode' %}"
                 codeBox.attr('class', '')
                 // 获取当前域名
                 var host = window.location.host
                 var protocol = window.location.protocol
                 // 追加二维码图片
-                $("#id-img-qrcode").attr("src", `${protocol}//${host}/facepay/qrcode/`)
+                $("#id-img-qrcode").attr("src", `${protocol}//${host}/sspanel/facepay/qrcode/`)
                 info = results.info
                 swal(info.title, info.subtitle, info.status)
                 requestButton.attr("disabled", "disabled")
